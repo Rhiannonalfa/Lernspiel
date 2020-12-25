@@ -11,12 +11,17 @@ public class LernEnvironment : MonoBehaviour
     [SerializeField] Button ton;
     [SerializeField] Button pause;
     [SerializeField] Text tafel;
+    [SerializeField] InputField loesungen;
     int foliennummer;
     int lernbereich = 0;
 
     public void StartLerning ()
     {
         zurück.gameObject.SetActive(false);
+        weiter.gameObject.SetActive(true);
+        ton.gameObject.SetActive(true);
+        pause.gameObject.SetActive(false);
+        loesungen.gameObject.SetActive(false);
         foliennummer = 0;
         tafel.text = XMLImporter.learnData[lernbereich].Lerninhalte[foliennummer];
 
@@ -45,6 +50,10 @@ public class LernEnvironment : MonoBehaviour
             zurück.gameObject.SetActive(false);
         }
 
+    }
+    public void AudioWiedergabe()
+    {
+        pause.gameObject.SetActive(true);
     }
 
 }
