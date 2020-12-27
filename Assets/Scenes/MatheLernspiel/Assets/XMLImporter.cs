@@ -12,6 +12,7 @@ public class XMLImporter : MonoBehaviour
     private void Awake()
     {
         learnData = new LearnData[] { new LearnData(new string[] { "aaaaaaaaaaaa", "bbbbbbbbbbbbbbbb", "cccccccccccc" }) };
-        exerciseData = new ExerciseData[] { new ExerciseData(new string[] { "AAAAAAAAA", "BBBBBBBBBBBBBB", "CCCCCCCCCCCCCCCC" })};
+        exerciseData = new ExerciseData[] { new ExerciseData(new string[] { "AAAAAAAAA", "BBBBBBBBBBBBBB", "CCCCCCCCCCCCCCCC" }, new string[] { "1", "2", "3" }, new int[] { 0, 0, 0 })};
     }
 }
+ 
