@@ -68,11 +68,15 @@ public class ExerciseEnvironment : MonoBehaviour
     {
         if (check) return;
         check = true;
-        schwierigkeitsgrad = schwierigkeitsgrad - 0.34f;
+        schwierigkeitsgrad = schwierigkeitsgrad - 1f;
         if (schwierigkeitsgrad < 0)
         {
             schwierigkeitsgrad = 0;
         } 
+        else if (schwierigkeitsgrad - Mathf.FloorToInt(schwierigkeitsgrad) >= 0.34f)
+        {
+            schwierigkeitsgrad = Mathf.CeilToInt(schwierigkeitsgrad);
+        }
     }
 
     public void NewExercise ()
