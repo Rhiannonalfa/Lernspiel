@@ -8,7 +8,6 @@ public class LernEnvironment : MonoBehaviour
     //Variablen:
     [SerializeField] GameObject lernOverlay;
     [SerializeField] GameObject exerciseOverlay;
-    [SerializeField] Button nächsteAufgabe;
     [SerializeField] Button weiter;
     [SerializeField] Button zurück;
     [SerializeField] Button ton;

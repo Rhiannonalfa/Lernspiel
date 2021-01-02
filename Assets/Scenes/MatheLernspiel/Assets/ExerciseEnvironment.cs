@@ -34,7 +34,7 @@ public class ExerciseEnvironment : MonoBehaviour
         aufgabennummer = 1;
         schwierigkeitsgrad = 0;
         aufgabenindex = Random.Range(0, XMLImporter.exerciseData[lernbereich].easyCount) ;
-        tafel.text = XMLImporter.exerciseData[lernbereich].aufgaben[aufgabenindex];
+        tafel.text = XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].aufgabe;
     }
     public void CheckAnswer()
     {
@@ -45,7 +45,7 @@ public class ExerciseEnvironment : MonoBehaviour
         loesungen.interactable = false;
 
 
-        if (loesungen.text == XMLImporter.exerciseData[lernbereich].lösungen[aufgabenindex])
+        if (loesungen.text == XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].lösung)
         {
             tafel.text = "Richtig!";
         }
@@ -54,7 +54,7 @@ public class ExerciseEnvironment : MonoBehaviour
             check = false;
             richtig.gameObject.SetActive(true);
             falsch.gameObject.SetActive(true);
-            tafel.text = "Die richtige Lösung ist: " + XMLImporter.exerciseData[lernbereich].lösungen[aufgabenindex] + " Prüfe deine Antwort!";
+            tafel.text = "Die richtige Lösung ist: " + XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].lösung + " Prüfe deine Antwort!";
         }
     }
    public void CheckAnswerStudendRight ()
@@ -81,6 +81,7 @@ public class ExerciseEnvironment : MonoBehaviour
 
     public void NewExercise ()
     {
+        if (check == false) return;
         abgebenLösung.gameObject.SetActive(true);
         loesungen.gameObject.SetActive(true);
         nächsteAufgabe.gameObject.SetActive(false);
@@ -99,17 +100,17 @@ public class ExerciseEnvironment : MonoBehaviour
             if (schwierigkeitsgrad <1)
             {
                 aufgabenindex = Random.Range(0, XMLImporter.exerciseData[lernbereich].easyCount);
-                tafel.text = XMLImporter.exerciseData[lernbereich].aufgaben[aufgabenindex];
+                tafel.text = XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].aufgabe;
             }
            else if (schwierigkeitsgrad < 2)
             {
                 aufgabenindex = Random.Range(XMLImporter.exerciseData[lernbereich].easyCount, XMLImporter.exerciseData[lernbereich].easyCount + XMLImporter.exerciseData[lernbereich].medCount);
-                tafel.text = XMLImporter.exerciseData[lernbereich].aufgaben[aufgabenindex];
+                tafel.text = XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].aufgabe;
             }
             else
             {
                 aufgabenindex = Random.Range(XMLImporter.exerciseData[lernbereich].easyCount + XMLImporter.exerciseData[lernbereich].medCount, XMLImporter.exerciseData[lernbereich].easyCount+ XMLImporter.exerciseData[lernbereich].medCount+ XMLImporter.exerciseData[lernbereich].hardCount);
-                tafel.text = XMLImporter.exerciseData[lernbereich].aufgaben[aufgabenindex];
+                tafel.text = XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].aufgabe;
             }
         }
 
@@ -123,7 +124,7 @@ public class ExerciseEnvironment : MonoBehaviour
         richtig.gameObject.SetActive(false);
         falsch.gameObject.SetActive(false);
         zurück.gameObject.SetActive(false);
-        tafel.text = XMLImporter.exerciseData[lernbereich].aufgaben[aufgabenindex];
+        tafel.text = XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].aufgabe;
     }
 }
 

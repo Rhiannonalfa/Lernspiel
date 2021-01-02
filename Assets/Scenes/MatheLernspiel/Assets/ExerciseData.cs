@@ -4,25 +4,21 @@ using UnityEngine;
 
 public struct ExerciseData 
 {
-    public string[] aufgaben ;
-    public string[] lösungen;
-    public int[] schwierigkeitsgrade;
+    public Exercise[] exercises;
     public int easyCount;
     public int medCount;
     public int hardCount;
 
-    public ExerciseData(string[] aufgaben, string[] lösungen, int[] schwierigkeitsgrade)
+    public ExerciseData(Exercise[] exercises)
     {
-        this.aufgaben = aufgaben;
-        this.lösungen = lösungen;
-        this.schwierigkeitsgrade = schwierigkeitsgrade;
+        this.exercises = exercises;
         easyCount = 0;
         medCount = 0;
         hardCount = 0;
 
-        for (int i=0 ; i < aufgaben.Length; i++)
+        foreach(Exercise exercise in exercises)
         {
-            switch(schwierigkeitsgrade[i])
+            switch(exercise.schwierigkeitsgrad)
                 {
                 case 0:
                     {
@@ -41,12 +37,10 @@ public struct ExerciseData
                     }
                 default:
                     {
-                        Debug.LogError("not valid difficulty: " + schwierigkeitsgrade[i]);
+                        Debug.LogError("not valid difficulty: " + exercise.schwierigkeitsgrad);
                         break;
                     }
-
             }
         }
     }
-
 }
