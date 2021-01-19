@@ -5,16 +5,15 @@ using UnityEngine;
 
 public class XMLImporter : MonoBehaviour
 {
-    public static LearnData[] learnData;
+    public static List<LearnData> learnData;
     public static List<ExerciseData> exerciseData;
-
-
 
     private void Awake()
     {
-        learnData = new LearnData[] { new LearnData(new string[] { "aaaaaaaaaaaa", "bbbbbbbbbbbbbbbb", "cccccccccccc" }) };
-        exerciseData = new List<ExerciseData> { new ExerciseData(new Exercise[] { new Exercise("AAAAAAAA", "1", 0), new Exercise("BBBBBBBBB", "2", 0), new Exercise("CCCCCCCC", "3", 0) }) };
-        ImportFile("C:\\Users\\Lill Kuhfahl\\Documents\\GameDevelopment\\MatheLernspiel\\Assets\\Scenes\\MatheLernspiel\\Assets\\Schnittpunktbestimmung.xml");
+        learnData = new List<LearnData>();
+        exerciseData = new List<ExerciseData>();
+        ImportFile("Assets\\Schnittpunktbestimmung.xml");
+        ImportFile("Assets\\LSchnittpunktsbestimmung.xml");
     }
 
     public async void ImportFile(string fileName)
@@ -24,7 +23,11 @@ public class XMLImporter : MonoBehaviour
         XmlReader reader = XmlReader.Create(fileName, settings);
         string element = "";
 
+        ExerciseData exerciseData = new ExerciseData(new List<Exercise>());
         Exercise exercise = new Exercise();
+        LearnData learnData = new LearnData(new List<Learncontent>());
+        Learncontent learncontent = new Learncontent();
+
         while (await reader.ReadAsync())
         {
 
@@ -36,29 +39,68 @@ public class XMLImporter : MonoBehaviour
                 {
                     exercise = new Exercise();
                 }
+                else if (reader.Name == "Folie")
+                {
+                    learncontent = new Learncontent();
+                }
 
             }
             else if (reader.NodeType == XmlNodeType.Text)
             {
                 switch (element)
                 {
+                //XML-Aufgaben
                     case "Thema":
                         //reader.Value;
                         break;
                     case "Difficulty":
                         exercise.schwierigkeitsgrad = int.Parse(reader.Value);
                         break;
+                    case "Question":
+                        exercise.aufgabe = reader.Value;
+                        break;
+                    case "Picture":
+                        //to do: BildPlatzhalter eingügen in UI + Methode schreiben zum darstellen
+                        break;
+                    case "Solution":
+                        exercise.lösung = reader.Value;
+                        break;
+                    case "Way":
+                        exercise.lösungsweg = reader.Value;
+                        break;
 
+                //XML-Lerninhalte
+                    case "Bild":
+                        // todo: Bild Platzhalter...
+                        break;
+                    case "Ton":
+                        //Ton einbinden etc.
+                        break;
+                    case "Text":
+                        learncontent.tafelanschrieb = reader.Value;
+                        break;
                 }
             }
             if (reader.NodeType == XmlNodeType.EndElement)
             {
-                if (reader.Name == "Exercises")
+                if (reader.Name == "Exercise")
                 {
-                    ExerciseData exerciseData = new ExerciseData ();
-                    Debug.Log("Juhuuuu!");
+                    exerciseData.exercises.Add(exercise);
                 }
-
+                else if (reader.Name == "Exercises")
+                {
+                    XMLImporter.exerciseData.Add(exerciseData);
+                    exerciseData = new ExerciseData(new List<Exercise>());
+                }
+                else if (reader.Name == "Folie")
+                {
+                    learnData.learncontents.Add(learncontent);
+                }
+                else if (reader.Name == "Lerninhalt")
+                {
+                    XMLImporter.learnData.Add(learnData);
+                    learnData = new LearnData(new List<Learncontent>());
+                }
             }
 
 

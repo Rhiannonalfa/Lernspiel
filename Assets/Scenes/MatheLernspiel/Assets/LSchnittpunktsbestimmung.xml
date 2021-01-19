@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Lerninhalt>
+  <Thema> Schnittpunktsbestimmung </Thema>
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Schau dir die linearen Funktionen im nebenstehenden Diagramm an.
+      Fällt dir etwas auf?
+    </Text>
+  </Folie>
+  
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wir sehen das die Funktionen f und g sich schneiden, während die Funktionen h und k dies nicht
+      tun. h und k sind parallel zueinander. Vergleicht man nun die Funktionsgleichungen erkennt man,
+      dass die Anstiege von h und k gleich sind, während sich die Anstiege von f und g unterscheiden.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Zwei lineare Funktionen schneiden sich in genau einem Punkt, weil sie unterschiedliche Anstiege haben.
+      𝑚_1  ≠  𝑚_2
+
+      Dieser Punkt heißt Schnittpunkt und wird mit 𝑆(𝑥_𝑆; 𝑦_𝑆) bezeichnet.
+
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Dieser Schnittpunkt lässt sich zeichnerisch bestimmen.
+      Versuche dich einmal an der Aufgabe.
+      Aufgabe: 
+      Zwei Freunde wohnen 20 km voneinander entfernt. Beide laufen aufeinander zu, der eine mit 3 km/h, der andere 
+      mit 3,5 km/h. Wann treffen sie sich?
+      f(𝑥)=3𝑥+0
+      g(𝑥)=−3,5𝑥+20
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wir finden den Schnittpunkt bei ca. x = 3h und y = 9km.
+      Also müssten die Freunde 3h laufen um sich zu treffen.
+      
+      Dies gibt uns allerdings nur einen ungefähren Schnittpunkt. Genauer wird es wenn du rechnest.
+      Dazu nutzen wir, dass am Schnittpunkt das x von f gleich dem x von g ist. Dies gilt auch für 
+      das y. Somit können wir die Funktionsgleichungen gleichsetzen und die Gleichung auflösen:
+                  yf = yg
+                  3x = -3,5x +20    |+3,5x
+                6,5x = 20           |:6,5
+                  x  = 3,076
+                  
+      Ein Punkt hat immer eine x als auch eine y-Koordinate, also setzen wir x in eine der beiden
+      Funktionen ein.
+                y = 3 * (3,076 )
+                y = 9,228
+      Somit erhalten wir unseren Schnittpunkt mit S (3,076;9,228).
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Um den Schnittpunkt von Geraden zu bestimmen, kann man unterschiedlich vorgehen (Beachte die Aufgabenstellung):
+        - Zeichnerisches Lösen: liefert einen Näherungswert
+        - Rechnerisches Lösen liefert die exakte Lösung
+            → Funktionsterme gleichsetzen
+            → Gleichung nach x lösen
+            → x in eine beliebige Funktionsgleichung einsetzen, um y zu berechnen
+            → Probe durchführen (x,y in die andere Funktionsgleichung einsetzen)
+            → Koordinaten des Schnittpunktes angeben
+
+    </Text>
+  </Folie>
+
+  <Folie>
+  <Bild></Bild>
+  <Ton></Ton>
+  <Text>
+    Versuche nun die Aufgabe zu lösen.
+  </Text>
+</Folie>
+
+</Lerninhalt>

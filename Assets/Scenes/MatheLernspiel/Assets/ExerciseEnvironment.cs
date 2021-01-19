@@ -54,7 +54,7 @@ public class ExerciseEnvironment : MonoBehaviour
             check = false;
             richtig.gameObject.SetActive(true);
             falsch.gameObject.SetActive(true);
-            tafel.text = "Die richtige Lösung ist: " + XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].lösung + " Prüfe deine Antwort!";
+            tafel.text = "Die richtige Lösung ist: " + XMLImporter.exerciseData[lernbereich].exercises[aufgabenindex].lösungsweg + " Prüfe deine Antwort!";
         }
     }
    public void CheckAnswerStudendRight ()
@@ -129,4 +129,3 @@ public class ExerciseEnvironment : MonoBehaviour
 }
 
    
-  

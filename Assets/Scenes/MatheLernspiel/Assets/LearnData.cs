@@ -4,10 +4,11 @@ using UnityEngine;
 
 public struct LearnData 
 {
-    public string[] Lerninhalte;
+    public List<Learncontent> learncontents;
     
-    public LearnData(string[] Lerninhalte)
+    
+    public LearnData(List <Learncontent> learncontents)
     {
-        this.Lerninhalte = Lerninhalte;
+        this.learncontents = learncontents;
     }
 }

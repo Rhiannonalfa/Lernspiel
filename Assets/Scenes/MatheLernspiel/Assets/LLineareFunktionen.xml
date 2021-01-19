@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Lerninhalt>
+  <Thema>lineare Funktionen</Thema>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Du willst dich mit deinen Freunden treffen. Dafür möchtest du Smarties kaufen.
+      Bei den Smarties kosten 130g 0,65€. Die Tüte zum abpacken der Smarties kostet einmal 1€.
+      
+      Das die Zuordnung Masse in kg --> Preis in € für die Smarties, durch eine proportionale
+      Funktion darstellbar ist, haben wir bereits im letzten Kapitel herausgefunden.
+      Nun kommt jedoch der Preis für die Tüte noch hinzu. 
+      Ist dies nun immer noch eine Funktion?
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wir gehen wieder genauso vor und erstellen eine Wertetabelle und übertragen diese in 
+      ein Koordinatensystem um einen Graphen zu erhalten.
+      
+      Probiere es selber einmal aus und prüfe, ob eine Funktion vorliegt.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wenn wir nur die Tüte kaufen, ohne Smarties, zahlen wir an der Kasse für 0g Smarties
+      1€. Für 1g Smarties in der Tüte zahlen wir 1,0005€ und so weiter und so fort.
+      Wenn wir mit dem Lineal am Graphen entlangfahren, finden wir immer nur einen Preis 
+      pro Gewicht.
+      Somit ist dies eine Funktion mit der Funktionsgleichung y= 0,005g/€ * x + 1€
+      
+      Im Vergleich zur proportionalen Funktion ist diese allerdings entlang der y-Achse 
+      verschoben.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Eine lineare Funktion mit der Gleichung y= mx + n ist eine proportionale Funktion, welche an der y-Achse verschoben 
+      ist. Dabei ist n der y-Achsenschnittpunkt. Der Graph der Funktion verläuft immer durch den Punkt (0;n).
+      
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Proportionale Funktionen sind also Sonderfälle von linearen Funktionen, bei denen n = 0 gilt.
+      
+      Wenn wir also lineare Funktionen zeichnen wollen, verwenden wir den Punkt (0,n) anstatt des Koordinatenursprungs.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Versuche nun die Aufgabe zu lösen.
+    </Text>
+  </Folie>
+  
+</Lerninhalt>

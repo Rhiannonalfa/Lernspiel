@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Lerninhalt>
+  <Thema>graphische Darstellung von proportionalen Funktionen</Thema>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Welche Bedeutung hat dieses Verkehrsschild?
+      
+      Das Vehrkersschild informiert über das entprechende Gefälle auf dieser Straße, hier 20%.
+      Den Begriff Gefälle, kennt man auch unter Steigung bzw. Anstieg einer Straße. Darum geht
+      es in diesem Abschnitt.
+      
+      Beispiel:  Was bedeutet 20 % Anstieg einer Straße?
+      20% Anstieg bedeutet: Auf je 100m Horizontalentfernung nimmt die Höhe um jeweils 20m zu.
+      Deshalb kann man die Straße auch als Gerade darstellen.
+      Sie ist der Graph der Zuornung Horizontalentfernung x (in m) --> Höhe y (in m).
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Bei einer proportionalen Funktion gilt stehts die Gleichung y = mx. 
+      Der Quotient y:x ist dabei immer der Gleiche, denn y/x = (mx)/x = m.
+      Dabei muss man x = 0 ausschließen, da man nicht durch 0 dividieren kann.
+      Somit kannst du mithilfe der Formel m = y/x die Funktionsgleichung bestimmen.
+      
+      In unserem Beispiel gilt also: m= 20m / 100m = 1/5 = 0,2.
+      
+      Somit finden wir unsere Funktionsgleichung y = (1/5)x  oder y = 0,2x.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wenn wir nun den Graphen zu dieser Funktion zeichnen wollen, haben wir zwei Möglichkeiten:
+      - 1. Methode: Der Graph ist stets eine Gerade und verläuft durch den Koordinatenursprung und 
+                    den Punkt (1;m), also hier (1; 0,2).
+      - 2. Methode: Wir nutzen den Quotienten und zeichnen den Graphen mit dem sogenannten
+                    Anstiegsdreieck. Das heißt wir gehen vom Koodinatenursprung den x-Wert entlang
+                    der x-Achse, hier also 100m, und gehen von hier aus den y-Wert nach oben, also 
+                    20m.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Wenn wir den Graphen einer proportionalen Funktion zeichnen wollen, haben wir zwei Möglichkeiten:
+        1. Methode: Der Graph ist stets eine Gerade und verläuft durch den Koordinatenursprung und
+                    den Punkt (1;m).
+      - 2. Methode: Wir nutzen den Quotienten und zeichnen den Graphen mit dem sogenannten
+                    Anstiegsdreieck. Das heißt wir gehen vom Koodinatenursprung den x-Wert entlang
+                    der x-Achse und gehen von hier aus den y-Wert nach oben bzw. unten.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Wenn es eine Steigung gibt, dann gibt es auch ein Gefälle. Das zeigt dieses Verkersschild.
+      Auch hierzu kann man wieder eine Funktionsgleichung finden und den Graphen zeichnen.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Der Graph zu einer proportionalen Funktion y=mx
+      - steigt (von links nach rechts), wenn m positiv ist.
+      - fällt (von links nach rechts), wenn m negativ ist.
+      - Ist m = 0 hat die Gerade keinen Anstieg, sondern verläuft paralell zur x-Achse.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Versuche nun die Aufgabe zu lösen.
+    </Text>
+  </Folie>
+</Lerninhalt>

@@ -4,12 +4,13 @@ using UnityEngine;
 
 public struct ExerciseData 
 {
-    public Exercise[] exercises;
+    // public Exercise[] exercises; // GEH SCHEISSEN ALEX
+    public List<Exercise> exercises;
     public int easyCount;
     public int medCount;
     public int hardCount;
 
-    public ExerciseData(Exercise[] exercises)
+    public ExerciseData(List<Exercise> exercises)
     {
         this.exercises = exercises;
         easyCount = 0;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class LernEnvironment : MonoBehaviour
+public class LearnEnvironment : MonoBehaviour
 {
     //Variablen:
     [SerializeField] GameObject lernOverlay;
@@ -25,28 +25,28 @@ public class LernEnvironment : MonoBehaviour
         ton.gameObject.SetActive(true);
         pause.gameObject.SetActive(false);
         foliennummer = 0;
-        tafel.text = XMLImporter.learnData[lernbereich].Lerninhalte[foliennummer];
+        tafel.text = XMLImporter.learnData[lernbereich].learncontents[foliennummer].tafelanschrieb;
 
     }
     public void NewNotes ()
     {
         zurück.gameObject.SetActive(true);
         foliennummer++;
-        if (foliennummer == XMLImporter.learnData[lernbereich].Lerninhalte.Length)
+        if (foliennummer == XMLImporter.learnData[lernbereich].learncontents.Count)
         {
             tafel.text = "Ende";
             foliennummer--;
         }
         else
         {
-            tafel.text = XMLImporter.learnData[lernbereich].Lerninhalte[foliennummer];
+            tafel.text = XMLImporter.learnData[lernbereich].learncontents[foliennummer].tafelanschrieb;
         }
         
     }
     public void LastNotes()
     {
         foliennummer--;
-        tafel.text = XMLImporter.learnData[lernbereich].Lerninhalte[foliennummer];
+        tafel.text = XMLImporter.learnData[lernbereich].learncontents[foliennummer].tafelanschrieb;
         if (foliennummer == 0)
         {
             zurück.gameObject.SetActive(false);

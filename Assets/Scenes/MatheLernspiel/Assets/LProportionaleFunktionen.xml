@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Lerninhalt>
+  <Thema>proportionale Funktionen</Thema>
+  
+<Folie>
+  <Bild></Bild>
+  <Ton></Ton>
+  <Text>
+    In diesem Kapitel werden wir eine besondere Art der Funktionen kennen lernen - die proportionale Funktion.
+    Hierzu wollen wir zusammen eine Aufgabe lösen.
+    
+    Aufgabe:  130 g Smarties kosten 0,65€.
+              Wie teuer sind 700g Smarties.
+    
+    Schritt 1:  Wir überprüfen ob es sich hierbei um eine proportionale Zuordnung handelt.
+  </Text>
+</Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+    Lösung 1: Die Zuordnung Masse in g --> Preis in € ist proportional, weil jeder Masse genau ein Preis zugeornet wird.
+              Außerdem gilt: Je mehr Smarties gekauft werden, umso teurer werden diese. Dabei bleibt Gewicht und Preis
+              im selben Verhältnis.
+              (Oder: Wenn ich doppelt so viele Smarties kaufe, dann muss ich doppelt so viel bezahlen.)
+    
+    Schritt 2: Stelle eine Tabelle auf und berechne mit den Dreisatz die Preise für 1g, 100g und 700g.
+  </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+    Lösung 2: Um von 130g auf 1 g zu kommen, müssen wir durch 130 teilen. Somit müssen wir auch die 0,65€ durch 130 teilen.
+              Anschließend müssen wir um von 1g auf 100g zu kommen mit 100 multiplizieren. Dasselbe machen wir mit dem Preis.
+              Genau dasselbe können wir entweder mit 700 für die 700g machen oder wir können mit 7 den Preis von 100g multipizieren.
+              
+    Somit kann man nun für alle möglichen Massen den Preis berechnen, weil wir wissen: 1g Smarties kosten 0,005€.
+    
+    Also kann man mit der Gleichung: Preis = 0,005 €/g * Masse
+    alle Preise bei gegebener Masse berechnen.
+    
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      In der Mathematik benutzen wir häufig die Variablen x und y. Die gegebene Größe entspricht hier x (=Masse) und die 
+      gesuchte Größe y (= Preis).
+      
+      Also lautet die mathematische Funktion: y = 0,005 €/kg * x
+      
+      Nun kannst du weitere Wertetabellen erstellen und den Funktionsgraph zeichen.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Merke:
+      Jede Funktion mit der Gleichung y = m*x ,mit m Element der rationalen Zahlen und ungleich 0, heißt proportionale Funktion.
+      Der Faktor m heißt Anstieg der Funktion. Der Graph ist stehts eine Gerade und verläuft duch den Koordinatenursprung sowie 
+      durch den Punkt (1;m).
+    </Text>
+  </Folie>
+
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Versuche nun die Aufgabe zu lösen.
+    </Text>
+  </Folie>
+
+
+</Lerninhalt>
