@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Lerninhalt>
+  <Thema> Einführung Funktionen </Thema>
+  <Nummer>1</Nummer>
+<Folie>
+  <Bild> </Bild>
+  <Ton>\\Sound\\LEinführungFunktionen\\1.Folie-converted.wav</Ton>
+  <Text>
+    Ob die Geschwindigkeit eines Fahrzeuges, der Fahrpreis in Abhängigkeit von der Entfernung,
+    die Höhe der Stromrechnung in Abhängigkeit vom Stromverbrauch, die Außentemperatur in Abhängigkeit von der Tageszeit, 
+    die Flußwassertemperatur in Abhängigkeit von der Jahreszeit oder der verfügbarer Restbetrag des monatlich gezahlen
+    Taschengeldes in Abhängigkeit vom Tag des laufenden Monats, alle diese Dinge haben etwas gemeinsam. 
+    
+    Erinnerst du dich bei welchem Thema, du bereits ähnliche Fragestellungen hattest?
+  </Text>
+</Folie>
+
+  <Folie>
+    <Bild>\\Bilder\\BerghöheTempZuordnung.PNG</Bild>
+    <Ton>\\Sound\\LEinführungFunktionen\\2.Folie-converted.wav</Ton>
+    <Text>
+      Wenn du dich nicht erinnerst, dann wiederhohle bitte Proportionalitäten und Zuordnungen,
+      da wir damit sehr viel arbeiten werden.
+      
+      Im Bild nebenan siehst du zwei verschiedene Zuordnungen. Beides Mal wird eine Temperatur 
+      in °C einer Höhe in km zugeordnet. Welche davon ist eindeutig?
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild>\\Bilder\\BerghöheTempZuordnung.PNG</Bild>
+    <Ton>\\Sound\\LEinführungFunktionen\\3.Folie-converted.wav</Ton>
+    <Text>
+      Im Beispiel wird bei der Figur A jeder Höhe eine ganz bestimmte Temperatur zugeordnet.
+      Hier ist die Zuordnung eindeutig.
+      
+      Bei der Figur B werden einige Temperaturen mehreren Höhen zugeornet. Diese Zuordnung ist 
+      nicht eindeutig.
+      
+      Du hast vorher einige alltägliche Beispiele gesehen die auch eindeutige Zuordnungen sein können.
+      Da sie so häufig in der Praxis vorkommen, haben sie einen besonderen Namen bekommen, Funktion.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild>\\Bilder\\Ausrufezeichen.PNG</Bild>
+    <Ton>\\Sound\\LEinführungFunktionen\\4.Folie-converted.wav</Ton>
+    <Text>
+      Definition:
+      Eine Funktion ist eine eindeutige Zuordnung, wobei jedem Element der 1. Menge genau ein Element der 
+      2. Menge zugeordnet wird. 
+      Funktionen werden in der Mathematik mit Kleinbuchstaben (f;g;h;...) bezeichnet.
+      
+      Bsp.: Die Funktion f ordnet jeder natürlichen Zahl ihr Doppeltes zu.
+      
+      Die 1. Menge wird als Definitionsbereich bezeichnet (kurz: Df). Häufig bezeichnet man die einzelnen
+      Werte mit x und nennt diese Argumente.
+      
+      z.B.: Df = {0;1;2;3;4;...} oder Df = N
+      
+      Die 2. Menge wird Wertebereich (kurz: Wf) genannt. Die zugeordneten y- Werte werden als Funktionswerte
+      bezeichnet.
+      
+      z.B.: Wf= {0;2;4;6;8;...}
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild>\\Bilder\\Ausrufezeichen.PNG</Bild>
+    <Ton>\\Sound\\LEinführungFunktionen\\5.Folie-converted.wav</Ton>
+    <Text>
+      Funktionen werden genauso wie Zuordnungen dargestellt, als:
+        - Wortvorschrift
+        - Wertetabelle
+        - geordnete Zahlenpaare
+        - Funktionsgleichung
+        - graphische Darstellung:
+          Die Darstellung der Funktion im Koordinatensystem wird Graph der Funktion genannt. Er besteht
+          aus einer Menge von Punkten (x;y).
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild>\\Bilder\\TippmitLineal.PNG</Bild>
+    <Ton>\\Sound\\LEinführungFunktionen\\6.Folie-converted.wav</Ton>
+    <Text>
+      Tipp:
+      Wenn man bei einem Graphen entscheiden möchte, ob er eine Funktion beschreibt, kann
+      man ein Lineal senkrecht zur x-Achse hinlegen und es an ihr entlang schieben.
+      Wenn der Graph und das Lineal sich immer nur einmal schneiden. Ist es eine Funktion.
+      Wenn der Graph und das Lineal sich, auch nur an einer Stelle, 2 mal schneiden, ist es
+      keine Funktion.
+    </Text>
+  </Folie>
+
+  <Folie>
+    <Bild></Bild>
+    <Ton></Ton>
+    <Text>
+      Versuche nun die Aufgabe zu lösen.
+    </Text>
+  </Folie>
+  
+</Lerninhalt>

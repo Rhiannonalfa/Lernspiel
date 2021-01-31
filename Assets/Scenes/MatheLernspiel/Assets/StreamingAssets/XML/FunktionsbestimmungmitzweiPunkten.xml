@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Exercises>
+  <Thema>Funktionsbestimmung mit zwei Punkten</Thema>
+<Exercise>
+  <Difficulty>0</Difficulty>
+  <Question> Zeichne im Koordinatensystem eine Gerade durch die Punkte P(-3|-1) und Q(3|7). Berechne die Steigung der Geraden. </Question>
+  <Picture> pic_punkte </Picture>
+  <Solution> </Solution>
+  <Way>
+    Der Anstieg wird mithilfe des Steigungsquotienten bestimmt:
+    m = (y1-y2)/(x1-x2) = (-1-7)/(-3-3) = -4/3.
+  </Way>
+</Exercise>
+
+<Exercise>
+  <Difficulty>1</Difficulty>
+  <Question> Die Punkte B(4,5|1,5) und C(-3|-4) liegen auf einer Geraden. Gib die Funktionsgleichung an und zeichne die Gerade. </Question>
+  <Picture> pic_Punkte2 </Picture>
+  <Solution> f(x) = 11/15x - 1,8 </Solution>
+  <Way>
+    Der Anstieg wird mithilfe des Steigungsquotienten bestimmt:
+    m = (y1-y2)/(x1-x2) = (1,5-(-4))/(4,5-(-3)) = (5,5/7,5) = 11/15
+    Dies setzten wir zusammen mit den Koordinaten eines Punktes in die allgemeine Funktionsgleichung ein, um n zu bestimmen:
+    y = (11/15)x + n
+    1,5 = (11/15)*(4,5) + n
+    1,5 = 3,3 + n | -3,3
+    n = -1,8
+    Die Funktion lautet also: f(x) = 11/15x - 1,8
+  </Way>
+</Exercise>
+
+<Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> Tobias und Mario arbeiten als Krankenpfleger in einer Rehabilitationsklinik und beziehen das gleiche Grundgehalt. Zur Zeit müssen beide viel Überstunden leisten. Am Monatsende vergleichen sie ihre Gehaltsabrechnungen. Der Bruttolohn von Tobias beträgt 3559 €, der von Mario 3223 €. Tobias hat im laufenden Monat 43 Überstunden, Mario dagegen nur 27 Überstunden geleistet. Gib eine Funktionsgleichung an, die das Grundgehalt und die Überstundenpauschale angibt. (Hinweis: Anzahl der Überstunden: x, Ausgezahlter Bruttolohn: f(x))</Question>
+  <Picture> </Picture>
+  <Solution> f(x) = 21x + 2656 </Solution>
+  <Way>
+    Zunächst können aus der Aufgabenstellung zwei Punkte herausgearbeitet werden: P(43|3559) und Q(27|3223).
+    Der Anstieg wird mithilfe des Steigungsquotienten bestimmt:
+    m = (y1-y2)/(x1-x2) = (3559-3223)/(42-27) = 21.
+    Dies setzten wir zusammen mit den Koordinaten eines Punktes in die allgemeine Funktionsgleichung ein, um n zu bestimmen:
+    y = 21x + n
+    3559 = 21 * 43 + n
+    3559 = 903 + n | -903
+    n = 2656
+
+    Die Funktionsgleichung lautet also: f(x) = 21x + 2656. Die Überstundenpauschale beträgt 21 € und das Grundgehalt 2656 €.
+  </Way>
+</Exercise>
+</Exercises>

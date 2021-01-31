@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Exercises>
+  <Thema>Zuordnungen</Thema>
+  <ENummer>1</ENummer>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question> Können die gezeichneten "Kurven" Teil eines Funktionsgraphen sein?
+    Begründe deine Antwort.</Question>
+    <Picture>\\Bilder\\AKurveIstGraph.PNG</Picture>
+    <Solution>f nein; h ja; g ja; k ja; j nein</Solution>
+    <Way>
+    Wir verwenden den Tipp den wir gelernt haben und legen ein Lineal senkrecht zur x-Achse an.
+    Bei der roten Kurve f finden sich für die x-Werte von x= -2 bis x= -1 zwei Werte für y.
+    Somit ist es kein Funktionsgraph.
+    Bei der neongrünen Kurve finden wir ebenfalls  mehrere Werte für y für den Bereich x=-2 bis
+    x= 0 somit ist es kein Funktionsgraph.
+    Bei der blauen Kurve g, der dunkelgrünen Kurve h und der schwarzen Kurve k findet sich immer 
+    nur ein y-Wert pro x-Wert. Somit sind sie eindeutige Zuordnungen und somit Funktionsgraphen.
+    </Way>
+    <Sketch>\Bilder\\AKurveIstGraph.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question> Welche der Zuordnungen ist eine Funktion, welche nicht? Begründe deine Antwort.
+    a.) Geburtstag --> Person 
+    b.) Person --> Geburtstag</Question>
+    <Picture> </Picture>
+    <Solution>a.) nein
+    b.) ja</Solution>
+    <Way>
+a.) Die Zuordnung ist keine Funktion, denn zu jedem Tag gibt es mehrere Personen, die an diesem Tag Geburtstag haben.
+b.) Die Zuordnung ist eine Funktion, denn zu jeder Person gibt es nur ein Geburtstag.
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question> Welche der Zuordnungen ist eine Funktion, welche nicht? Begründe deine Antwort.
+    a.) gefahrene Strecke --> Benzinverbrauch
+  b.) Benzinverbrauch --> gefahrende Strecke</Question>
+    <Picture> </Picture>
+    <Solution> a.) nein
+    b.) ja</Solution>
+    <Way>
+a.)Die Zuordnung ist eine Funktion, da man zu jeder gefahrenen Strecke nur einen Wert für den Benzinverbrauch hat.
+b.)Die Zuordnung ist keine Funktion, da man zu einem Benzinverbrauch durch anhalten etc. mehrere Strecken gefunden werden können.
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Welche der Zuordnungen ist eine Funktion, welche nicht? Begründe deine Antwort.
+      a.) Name --> Personalausweisnummer
+      b.) Name --> Telefonnummer
+    </Question>
+    <Picture> </Picture>
+    <Solution> a.) nein b.) nein </Solution>
+    <Way>
+Weder a.) noch b.) sind Funktionen, da es zu einem Namen wie Anna sowohl mehrere Personalausweisnummern als auch Telefonnummern geben wird.
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Können die gezeichneten "Kurven" Teil eines Funktionsgraphen sein?
+      Begründe deine Antwort.
+    </Question>
+    <Picture>\\Bilder\\AKurveIstGraph2.PNG</Picture>
+    <Solution>c ja ; g; ja; k nein; i nein; p ja</Solution>
+    <Way>
+      Wir verwenden den Tipp den wir gelernt haben und legen ein Lineal senkrecht zur x-Achse an.
+      Bei der neongrünen Kurve i finden sich im Bereich von x = -2,7 bis x= -1,7 mehrere Werte für y, womit i kein Funktionsgraph ist.
+      Bei der roten Kurve k finden sich im Bereich von x = -2,7 bis x= 2,7 mehrere Werte für y, womit k kein Funktionsgraph ist.
+      Bei der schwarzen Kurve c, der blauen Kurve g und der dunkelgrünen Kurve p findet sich immer
+      nur ein y-Wert pro x-Wert. Somit sind sie eindeutige Zuordnungen und somit Funktionsgraphen.
+    </Way>
+    <Sketch>\Bilder\\AKurveIstGraph2.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question> Gib eine Funktionsvorschrift an und berechne f(-2) und f(1) für f: Zahl --> das Dreifache der Zahl vermindert um Eins.  </Question>
+    <Picture> </Picture>
+    <Solution> f(x) = 3x -1 ; f(-2) = -7 ; f(1) = 2</Solution>
+    <Way>
+Wir wissen dass das Argument die Zahl sein soll --> x = Zahl. Somit müssen wir nun nur noch die Wortvorschrift in Zahlenwerte umsetzen.
+Dreifache der Zahl : 3x
+Vermindert um Eins: 3x -1
+Somit haben wir unsere Funktion gefunden: f(x) = 3x - 1.
+Bei f(-2) setzen wir für x = -2 ein: f(-2) = 3*(-2) -1 = -7
+Bei f(1) setzen wir für x = 1 ein: f(1) = 3*1 -1 = 2
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question> Gib eine Funktionsvorschrift an und berechne f(-2) und f(1) für f: Zahl --> die Hälfte der Zahl.  </Question>
+    <Picture> </Picture>
+    <Solution> f(x) = x/2 ; f(-2) = -1 ; f(1) = 0,5</Solution>
+    <Way>
+      Wir wissen dass das Argument die Zahl sein soll --> x = Zahl. Somit müssen wir nun nur noch die Wortvorschrift in Zahlenwerte umsetzen.
+      Hälfte der Zahl: x/2     
+      Somit haben wir unsere Funktion gefunden: f(x) = x/2.
+      Bei f(-2) setzen wir für x = -2 ein: f(-2) = (-2)/2 = -1
+      Bei f(1) setzen wir für x = 1 ein: f(1) = 1/2 = 0,5
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question> Gib eine Funktionsvorschrift an und berechne f(-2) und f(1) für f: Zahl --> Reziprokes der Zahl.  </Question>
+    <Picture> </Picture>
+    <Solution> f(x) = 1/x ; f(-2) = -0,5 ; f(1) = 1</Solution>
+    <Way>
+      Wir wissen dass das Argument die Zahl sein soll --> x = Zahl. Somit müssen wir nun nur noch die Wortvorschrift in Zahlenwerte umsetzen.
+      Reziprokes der Zahl: 1/x
+      Somit haben wir unsere Funktion gefunden: f(x) = 1/x.
+      Bei f(-2) setzen wir für x = -2 ein: f(-2) = 1/(-2) = -0,5.
+      Bei f(1) setzen wir für x = 1 ein: f(1) = 1/1 = 1
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+  
+ <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question> Der Punkt P (-2;y) liegt auf dem Graphen der Funktion. Bestimmme y.
+    a.) f(x) = x²
+  b.) g(x) = 4x -x²
+c.) h(x) = |x-3|²
+d.) k(x) = x|x|</Question>
+    <Picture> </Picture>
+    <Solution> a.) 4; b.) -12; c.) 25 ; d.) -4</Solution>
+    <Way>
+    Da wir wissen das der Punkt auf dem Graphen der Funktion liegt müssen wir den gegebenen x-Wert = -2 in die Funktionsgleichung einsetzen.
+    a.) f(-2) = 4
+    b.) g(-2) = -12
+    c.) h(-2) = 25
+    d.) k(-2) = -4
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question>
+      Der Punkt P (5;y) liegt auf dem Graphen der Funktion. Bestimmme y.
+      a.) f(x) = 3x + 4
+      b.) g(x) = x -3
+      c.) h(x) = x³ - 15
+      d.) k(x) = 20 / (2x)
+    </Question>
+    <Picture> </Picture>
+    <Solution> a.) 19; b.) 2; c.) 122 ; d.) 2 </Solution>
+    <Way>
+      Da wir wissen das der Punkt auf dem Graphen der Funktion liegt müssen wir den gegebenen x-Wert = -2 in die Funktionsgleichung einsetzen.
+      a.) f(5) = 19
+      b.) g(5) = 2
+      c.) h(5) = 122
+      d.) k(5) = 2
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+  
+  <Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> Eine Radtour dauert sechs Tage. Die Fahrradstrecke beträgt täglich 56km. Wie viele Tage werden bei einer täglichen Fahrradstrecken von 84km benötigt? </Question>
+  <Picture></Picture>
+  <Solution> 4 Tage </Solution>
+  <Way>
+    Wenn die Radfahrer täglich eine Strecke von 56km zurücklegen, haben sie nach 6 Tagen eine Strecke von 336km geschafft, denn 56 * 6 = 336.
+    Wenn sie nun eine tägliche Strecke von 84km zurücklegen, schaffen sie die gesamte Strecke auch in 4 Tagen, denn 336 : 84 = 4.
+  </Way>
+  <Sketch></Sketch>
+</Exercise>
+
+ 
+
+<Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> In einem Regal stehen Apfelsaft- und Orangensaftflaschen. Eine Flasche Apfelsaft kostet 0,79€, eine Flasche Orangensaft 0,89€.
+  Tim hat 5 Flaschen Apfelsaft gekauft. Tom hat 7 Flaschen aus dem Regal genommen. Wie viel € muss jeder von beiden bezahlen?</Question>
+  <Picture> </Picture>
+  <Solution>Tim: 3,95€; Tom: 5,53€ bis 6,23€ </Solution>
+  <Way>
+Bei Tim ist die Berechnung einfach: 5 Flaschen * 0,79€ = 3,95€. Die Zuordnung Anzahl der Apfelsaftflaschen --> Preis ist eine Funktion.
+Bei Tom können wir keinen genauen Wert angeben, da Anzahl der Flaschen --> Preis keine Funktion ist.
+Er kann von 7* 0,79€ = 5,53€ bis 7 * 0,89€ = 6,23€ alles zahlen.
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+
+  <Exercise>
+    <Difficulty>2</Difficulty>
+    <Question> Ein Wald muss im Laufe seines etwa 100-jährigen Wachstums dreimal durchforstet werden, damit die Bäume nicht zu dicht stehen und kein undurchdringliches
+    Dickicht von Abfallholz entsteht. Der Graph zeigt den Holzbestand in einem 1ha großen Fichtenwald.
+    Nach wie vielen Jahren beträgt der Holzbestand 300m³ (400 m³; 275 m³)?</Question>
+    <Picture> \\Bilder\\AWaldbestand.PNG</Picture>
+    <Solution> 42; 50; 40 </Solution>
+    <Way>
+Lese die Punkte aus dem nebenstehenden Diagramm ab. Dabei ist der Holzbestand auf der y-Achse zu suchen,
+auf dieser Höhe den Punkt am Graphen und von hier aus den x-Wert ablesen.
+ 300m³ --> 42 Jahre
+ 400m³ --> 50 Jahre
+ 275m³ --> 40 Jahre
+    </Way>
+    <Sketch> \\Bilder\\AWaldbestand.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>2</Difficulty>
+    <Question>
+      Ein Wald muss im Laufe seines etwa 100-jährigen Wachstums dreimal durchforstet werden, damit die Bäume nicht zu dicht stehen und kein undurchdringliches
+      Dickicht von Abfallholz entsteht. Der Graph zeigt den Holzbestand in einem 1ha großen Fichtenwald. Wann wurde jeweils durchforstet und wie viel m³ wurde bei den Durchforstungen insgesamt geschlagen?
+    </Question>
+    <Picture> \\Bilder\\AWaldbestand.PNG</Picture>
+    <Solution> 24 Jahre --> 100m³; 50 Jahre --> 130m³; 76 Jahre --> 130m³</Solution>
+    <Way>
+      Lese aus dem Diagramm ab. Deine Werte sollten ungefähr hiermit übereinstimmen:
+      24 Jahre --> 100m³
+      50 Jahre --> 130m³
+      76 Jahre --> 130m³
+    </Way>
+    <Sketch> \\Bilder\\AWaldbestand.PNG</Sketch>
+  </Exercise>
+</Exercises>
+
+

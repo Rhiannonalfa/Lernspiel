@@ -6,21 +6,27 @@ public struct ExerciseData
 {
     // public Exercise[] exercises; // GEH SCHEISSEN ALEX
     public List<Exercise> exercises;
+    public int number;
     public int easyCount;
     public int medCount;
     public int hardCount;
 
-    public ExerciseData(List<Exercise> exercises)
+    public ExerciseData(List<Exercise> exercises, int number)
     {
+        this.number = number;
         this.exercises = exercises;
         easyCount = 0;
         medCount = 0;
         hardCount = 0;
+        SetList(exercises);
+    }
 
-        foreach(Exercise exercise in exercises)
+    public void SetList(List<Exercise> exercises)
+    {
+        foreach (Exercise exercise in exercises)
         {
-            switch(exercise.schwierigkeitsgrad)
-                {
+            switch (exercise.schwierigkeitsgrad)
+            {
                 case 0:
                     {
                         easyCount++;
@@ -43,5 +49,6 @@ public struct ExerciseData
                     }
             }
         }
+        this.exercises = exercises;
     }
 }

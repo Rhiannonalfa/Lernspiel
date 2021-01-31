@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Exercises>
+  <Thema>Lineare Funktionen</Thema>
+  <ENummer>4</ENummer>
+<Exercise>
+  <Difficulty>0</Difficulty>
+  <Question> Zeichne die folgenden linearen Funktionen in ein geeignetes Koordinatensystem: 
+             f(x) = 2/3x - 2 und g(x) = -4x + 6. </Question>
+  <Picture>  </Picture>
+  <Solution> kjhbikghbikb</Solution>
+  <Way>
+    f(x) = 2/3x -2: Zunächst wird das n in das Koordinatensystem eingetragen, d.h. der Schnittpunkt 
+    der Funktion f(x) mit der y-Achse. In diesem Falle ist n = -2. Wegen des Steigungsdreiecks bewegen 
+    wir uns drei Einheiten nach rechts und zwei Einheiten nach oben (siehe Steigungsdreieck) – 
+    diese Stelle muss als Punkt markiert werden. Nun verbinden wir die Schnittstelle der y-Achse mit 
+    unserem markierten Punkt.
+    g(x) = -4x + 6: Zunächst wird das n in das Koordinatensystem eingetragen, d.h. der Schnittpunkt der 
+    Funktion g(x) mit der y-Achse. In diesem Falle ist n = 6. Wegen des Steigungsdreiecks bewegen wir uns 
+    eine Einheiten nach rechts und vier Einheiten nach unten (siehe Steigungsdreieck) – diese Stelle muss 
+    als Punkt markiert werden. Nun verbinden wir die Schnittstelle der y-Achse mit unserem markierten Punkt.
+  </Way>
+  <Sketch>\\Bilder\\pic_mx+n.PNG </Sketch>
+</Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Zeichne die folgenden linearen Funktionen in ein geeignetes Koordinatensystem:
+      f(x) = -3x - 2 und g(x) = -3x + 6.
+      Gibt es eine Besonderheit von f(x) und g(x).
+    </Question>
+    <Picture>  </Picture>
+    <Solution> kjhbikghbikb</Solution>
+    <Way>
+      f(x) = -3x -2: Zunächst wird das n in das Koordinatensystem eingetragen, d.h. der Schnittpunkt
+      der Funktion f(x) mit der y-Achse. In diesem Falle ist n = -2. Wegen des Steigungsdreiecks bewegen
+      wir uns eine Einheit nach rechts und drei Einheiten nach unten (siehe Steigungsdreieck) –
+      diese Stelle muss als Punkt markiert werden. Nun verbinden wir die Schnittstelle der y-Achse mit
+      unserem markierten Punkt.
+      g(x) = -3x + 6: Zunächst wird das n in das Koordinatensystem eingetragen, d.h. der Schnittpunkt der
+      Funktion g(x) mit der y-Achse. In diesem Falle ist n = 6. Wegen des Steigungsdreiecks bewegen wir uns
+      eine Einheiten nach rechts und drei Einheiten nach unten (siehe Steigungsdreieck) – diese Stelle muss
+      als Punkt markiert werden. Nun verbinden wir die Schnittstelle der y-Achse mit unserem markierten Punkt.
+      
+      Die Funktionen sind sie paralell. 
+    </Way>
+    <Sketch>\\Bilder\\ALinFktzeichnen1.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Gebe die Funktionsgleichungen der Geraden im Koordinatensystem an.
+    </Question>
+    <Picture> \\Bilder\\ALinFktAblesen1.PNG</Picture>
+    <Solution> kjhbikghbikb</Solution>
+    <Way>
+      grüne Gerade: f(x) =-1x + 5
+      blaue Gerade:  g(x) = 1x + 3
+      rote Gerade:   h(x) = 3
+      orange Gerade: i(x) = 1x
+      lila Gerade:   j(x) = -(2/3)x + 1
+    </Way>
+    <Sketch>\\Bilder\\ALinFktAblesen1.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Gebe die Funktionsgleichungen der Geraden im Koordinatensystem an.
+    </Question>
+    <Picture> \\Bilder\\ALinFktAblesen2.PNG</Picture>
+    <Solution> kjhbikghbikb</Solution>
+    <Way>
+      grüne Gerade: f(x) = -(1/4)x + 5
+      blaue Gerade:  g(x) = -(2/3)x + 3
+      rote Gerade:   h(x) = (2/3)x - 1
+      orange Gerade: i(x) = -2x
+      lila Gerade:   j(x) = -(1/4)x + 1
+    </Way>
+    <Sketch>\\Bilder\\ALinFktAblesen2.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>0</Difficulty>
+    <Question>
+      Welche Geraden in einem Koordinatensysthem sind keine Graphen linearer Funktionen?
+    </Question>
+    <Picture></Picture>
+    <Solution> senkrechte Geraden </Solution>
+    <Way>
+      Senkrechte Gerade sind keine Graphen linearer Funktionen. Sie sind keine Graphen 
+      von irgendwelchen Funktionen, da einem x-Wert unendlich viele y-Werte zugeordnet werden.
+      
+    </Way>
+    <Sketch></Sketch>
+  </Exercise>
+  
+<Exercise>
+  <Difficulty>1</Difficulty>
+  <Question> Bestimme die Funktion mit dem Anstieg m=2, die durch den Punkt P(55|168) geht. </Question>
+  <Picture> </Picture>
+  <Solution> f(x) = 2x + 58 </Solution>
+  <Way>
+    Der Anstieg m wird in die allgemeine Form einer linearen Funktion eingesetzt.
+    So wissen wir: f(x) = mx + n = 2x + n.
+    Nun setzten wir die x- und y-Werte des Punktes P in die Funktion ein, um die Schnittstelle mit der y-Achse (n) zu bestimmen.
+    168 = 2*55 + n
+    168 = 110 + n | -110
+    58 = n
+    Somit lautet die Funktion: f(x) = 2x + 58.
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+  
+<Exercise>
+  <Difficulty>1</Difficulty>
+  <Question>
+    Berechne den Schnittpunkt der folgenden Funktion mit der x-Achse:
+    f(x) = 7x + 2.
+  </Question>
+  <Picture> </Picture>
+  <Solution> S(-2/7|0) </Solution>
+  <Way>
+    Um den Schnittpunkt mit der x-Achse zu berechnen, muss y = 0 gesetzt werden.
+    0 = 7x + 2 | -2
+    -2 = 7x | :7
+    -2/7 = x
+    Somit lautet der Schnittpunkt mit der x-Achse: S(-2/7|0).
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question>
+      Berechne den Schnittpunkt der folgenden Funktion mit der x-Achse:
+      f(x) = -(2/3)x + 1
+    </Question>
+    <Picture> </Picture>
+    <Solution> S(1,5;0) </Solution>
+    <Way>
+      Um den Schnittpunkt mit der x-Achse zu berechnen, muss y = 0 gesetzt werden.
+      0 = -(2/3)x + 1    |-1
+      -1 = -(2/3)x       |:(-2/3)
+      3/2 = x
+      Somit lautet der Schnittpunkt mit der x-Achse: S(1,5|0).
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>1</Difficulty>
+    <Question>
+      Berechne den Schnittpunkt der folgenden Funktion mit der x-Achse:
+      f(x) = (2/3)x - 1
+    </Question>
+    <Picture> </Picture>
+    <Solution> S(1,5;0) </Solution> 
+    <Way>
+      Um den Schnittpunkt mit der x-Achse zu berechnen, muss y = 0 gesetzt werden.
+      0 = -(2/3)x - 1    |+1
+      1 = (2/3)x       |:(2/3)
+      3/2 = x
+      Somit lautet der Schnittpunkt mit der x-Achse: S(1,5|0).
+    </Way>
+    <Sketch> </Sketch>
+  </Exercise>
+  
+<Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> Drei gleich große Gefäße werden mit Wasser gefüllt. Zu Beginn ist Gefäß A leer, im Gefäß B stehen 0,1 l und 
+  im Gefäß C stehen 0,5 l Wasser. Die Füllgeschwindigkeit beträgt 50 ml/s. Ermittle jeweils eine Funktionsgleichung für 
+  die Abhängigkeit der Füllmenge F in Liter von der Füllzeit t für das Gefäß B. </Question>
+  <Picture> </Picture>
+  <Solution> f(t) = 0,05t + 0,1 </Solution>
+  <Way>
+    Die allgemeine Form für diese Funktion lautet f(t) = mt + n.
+    Das n (Schnittstelle mit der y-Achse) ist sehr leicht aus der Aufgabe abzulesen. Da im Gefäß B bereits 0,1l Wasser 
+    vorhanden sind, ist n = 0,1.
+    Wir wissen weiterhin, dass das Gefäß jede Sekunde um 50ml (also 0,05l) gefüllt wird. Der Anstieg ist also m = 0,05.
+    Beachte: Die Maßeinheiten müssen für das m und n übereinstimmen.
+    Die Funktion lautet also: f(t) = 0,05t + 0,1.
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+
+<Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> Im Krankenhaus benötigt man viel Desinfektionslösung. Zurzeit sind noch 240 Liter vorhanden. Pro Tag werden 
+  15 Liter verbraucht. Bei einem Bestand von 90 Litern wird nachbestellt. Wie viele Tage hat der Zuständige noch Zeit? </Question>
+  <Picture> </Picture>
+  <Solution> 6 Tage </Solution>
+  <Way>
+    Um diese Aufgabe lösen zu können, muss zunächst die Funktionsgleichung ermittelt werden. Aus der Aufgabenstellung können 
+    wir die Variablen m und n bestimmen.
+    Da die Anfangsmenge 240l umfasst, können wir n = 240 festlegen.
+    Da pro Tag 15l Desinfektionsmittel verbraucht werden, die Menge also jeden Tag geringer wird, haben wir einen negativen Anstieg, also m = -15.
+    Somit lautet die Funktion f(x) = -15x + 240.
+    Zunächst muss ermittelt werden, ab wann keine Desinfektionslösung mehr vorhanden ist. Hierfür setzen wir y = 0.
+    0 = -15x + 240 | -240
+    -240 = -15x | : (-15)
+    x = 16.
+    Nach 16 Tagen sollte spätestens neue Lösung vorhanden sein.
+    Um herauszufinden, ab welchem Tag, weniger als 90l vorhanden sind, muss y = 90 gesetzt werden:
+    90 = -15x + 240 | -240
+    -150 = -15x | : (-15)
+    x = 10.
+    Der Zuständige sollte nach dem 10. Tag für Nachschub sorgen und hat dafür maximal sechs Tage Zeit.
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+
+<Exercise>
+  <Difficulty>2</Difficulty>
+  <Question> Herr Schmidt möchte in den Weihnachtsferien in den Skiurlaub fahren und tankt sein Auto deswegen voll. Der Tank fasst 62 Liter.
+  Sein Auto verbraucht bei schneller Fahrt durchschnittlich 8 Liter auf 100 km.  Berechne, wie viel Liter nach 250 km noch im Tank sind.</Question>
+  <Picture> </Picture>
+  <Solution> 42l </Solution>
+  <Way>
+    Um die Aufgabe berechnen zu können, muss die Funktionsgleichung ermittelt werden. Die Variablen n und m der allgemeinen 
+    Funktion f(x) = mx + n können aus der Aufgabengestellung abgelesen werden.
+    Da die Anfangsmenge 62l umfasst, können wir n = 62 festlegen.
+    Da pro 100km 8l verbraucht werden, die Menge also mit jedem Kilometer geringer wird, haben wir einen negativen Anstieg, also m = -8.
+    Wir können also folgende Funktion festhalten: f(x) = -8x + 62.
+    Nun ist noch zu berechnen, wie groß die Tankfüllung nach 250km noch ist. Da aber unser Anstieg die Verringerung für alle 100km angibt,
+    dürfen wir nicht x = 250 setzten, sondern müssen x = 2,5 berechnen (250 : 100 = 2,5). Also:
+    y = -8 * (2,5) + 62
+    y = 42
+    Nach 250km sind also noch 42l im Tank.
+  </Way>
+  <Sketch> </Sketch>
+</Exercise>
+
+  <Exercise>
+    <Difficulty>2</Difficulty>
+    <Question>
+      In einer KLinik wird einem Kranken gleichmäß9g aus einer infusionsflasche eine Kochsalzlösung zugeführt. Nach einer halben Stunde sind noch 0,8l in der Flasche.
+      Nach zwei Stunden sind es nur noch 0,2l. Zeichne den Graphen und lies die Antworten zu folgenden Fragen am Graphen der Funktion Zeitdauer--> Flascheninhalt
+      ab.
+      a.) Wie viel l waren bei Infusionsbeginn in der Flasche?
+      b.)  Wie viel l waren eine Stunde nach Infusionsbeginn noch in der Flasche?
+      c.) Wie viel min nach Infusionsbeginn war die Flasche leer?
+    </Question>
+    <Picture> </Picture>
+    <Solution> asdfasdfa</Solution>
+    <Way>
+     a.) 1l
+     b.) 0,6 l
+     c.) 150 min
+    </Way>
+    <Sketch>\\Bilder\\AlinFktSalzlösung.PNG </Sketch>
+  </Exercise>
+
+  <Exercise>
+    <Difficulty>2</Difficulty>
+    <Question>
+      Aus einem 3m langen Draht soll ein Drahtmodell einer Pyramide mit quadratischer Grundfläche hergestellt werden. 
+      Gib für die Funktion Länge der Grundkante --> Länge der Seitenkante eine Funktionsvorschrift an.
+    </Question>
+    <Picture> </Picture>
+    <Solution> f(x) = -x + (3/4)</Solution>
+    <Way>
+    Wir sagen das x der Länge der Grundkanten entspricht und y der Länge der Seitenkanten.
+    Wir wissen das die Pyramide 4 Seiten an der Grundfläche und 4 Seitenkanten hat.
+    Somit gilt: 4y + 4x = 3
+    Diese Gleichung stellen wir um, das wir die Form y = mx+n erreichen:
+    4y + 4x = 3       |-4x
+    4y      = -4x +3   |: 4
+    y      = -x + (3/4)
+    Somit ist die Gesuchte Funktionsvorschrift: f(x) = -x + (3/4)
+    </Way>
+    <Sketch>\\Bilder\\AlinFktSalzlösung.PNG </Sketch>
+  </Exercise>
+  
+</Exercises>
